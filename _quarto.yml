@@ -4,6 +4,7 @@ project:
   render:
     - index.qmd
     - exhibition-datamodel.qmd
+    - artist-datamodel.qmd
     - project-log.qmd
     - wikidata.qmd
     - wikidata-item.ipynb
@@ -16,6 +17,8 @@ website:
         text: Home
       - href: exhibition-datamodel.qmd
         text: Ausstellungs-Datenmodell
+      - href: artist-datamodel.qmd
+        text: Künstler-Datenmodell
       - href: project-log.qmd
         text: Project Log
       - href: wikidata.qmd

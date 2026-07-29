@@ -49,34 +49,6 @@
     "text": "Use these steps to publish and re-publish the site to GitHub Pages.\n\nCommit and push updates to main.\nIn GitHub, open Settings -&gt; Pages.\nUnder Build and deployment, set Source to GitHub Actions.\nConfirm the workflow file .github/workflows/publish.yml is present.\nWait for the Publish Quarto Site workflow to complete.\n\n\n\n\nOpen Actions in GitHub.\nSelect Publish Quarto Site.\nClick Run workflow and choose main.\n\n\n\n\n\nRe-check Settings -&gt; Pages is enabled for GitHub Actions.\nRe-run the workflow after enabling Pages."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "This is the Quarto website source for the BIM prototype project.\n\n\n\nWikidata Item Profile: Q138651552\n\n\n\n\n\n\n\nInitialized the Quarto website and GitHub Pages workflow.\nSwitched Quarto output to docs for publishing.\nAdded a notebook-backed Wikidata item profile page with SPARQL-driven data rendering.\nAdded reusable query/render helper logic in wikidata_profile.py.\nAdded profile visual summaries and parameterized item_id input.\nSee full details in the Project Log.\n\n\n\n\n\n\nAdd your project overview and goals.\nAdd additional pages as the project grows.\nPublish automatically via GitHub Pages."
-  },
-  {
-    "objectID": "index.html#featured-page",
-    "href": "index.html#featured-page",
-    "title": "Home",
-    "section": "",
-    "text": "Wikidata Item Profile: Q138651552"
-  },
-  {
-    "objectID": "index.html#changelog",
-    "href": "index.html#changelog",
-    "title": "Home",
-    "section": "",
-    "text": "Initialized the Quarto website and GitHub Pages workflow.\nSwitched Quarto output to docs for publishing.\nAdded a notebook-backed Wikidata item profile page with SPARQL-driven data rendering.\nAdded reusable query/render helper logic in wikidata_profile.py.\nAdded profile visual summaries and parameterized item_id input.\nSee full details in the Project Log."
-  },
-  {
-    "objectID": "index.html#next-steps",
-    "href": "index.html#next-steps",
-    "title": "Home",
-    "section": "",
-    "text": "Add your project overview and goals.\nAdd additional pages as the project grows.\nPublish automatically via GitHub Pages."
-  },
-  {
     "objectID": "exhibition-datamodel.html",
     "href": "exhibition-datamodel.html",
     "title": "Exhibition Data Model",
@@ -136,6 +108,97 @@
     "objectID": "exhibition-datamodel.html#attribution",
     "href": "exhibition-datamodel.html#attribution",
     "title": "Exhibition Data Model",
+    "section": "Attribution",
+    "text": "Attribution\nThis data model documentation was created with assistance from GitHub Copilot (powered by Claude Haiku 4.5). The model was aligned against sector standards including CIDOC CRM v7.1.3, Wikibase4Research, and Wikidata WikiProject Exhibitions guidelines through AI-assisted analysis and formatting."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is the Quarto website source for the BIM prototype project.\n\n\n\nWikidata Item Profile: Q138651552\n\n\n\n\n\n\n\nInitialized the Quarto website and GitHub Pages workflow.\nSwitched Quarto output to docs for publishing.\nAdded a notebook-backed Wikidata item profile page with SPARQL-driven data rendering.\nAdded reusable query/render helper logic in wikidata_profile.py.\nAdded profile visual summaries and parameterized item_id input.\nSee full details in the Project Log.\n\n\n\n\n\n\nAdd your project overview and goals.\nAdd additional pages as the project grows.\nPublish automatically via GitHub Pages."
+  },
+  {
+    "objectID": "index.html#featured-page",
+    "href": "index.html#featured-page",
+    "title": "Home",
+    "section": "",
+    "text": "Wikidata Item Profile: Q138651552"
+  },
+  {
+    "objectID": "index.html#changelog",
+    "href": "index.html#changelog",
+    "title": "Home",
+    "section": "",
+    "text": "Initialized the Quarto website and GitHub Pages workflow.\nSwitched Quarto output to docs for publishing.\nAdded a notebook-backed Wikidata item profile page with SPARQL-driven data rendering.\nAdded reusable query/render helper logic in wikidata_profile.py.\nAdded profile visual summaries and parameterized item_id input.\nSee full details in the Project Log."
+  },
+  {
+    "objectID": "index.html#next-steps",
+    "href": "index.html#next-steps",
+    "title": "Home",
+    "section": "",
+    "text": "Add your project overview and goals.\nAdd additional pages as the project grows.\nPublish automatically via GitHub Pages."
+  },
+  {
+    "objectID": "artist-datamodel.html",
+    "href": "artist-datamodel.html",
+    "title": "Artist Data Model",
+    "section": "",
+    "text": "This data model provides a standardized schema for describing artists and their biographical information within the Linked Open Exhibition ecosystem. It is aligned with three major sector standards:\n\nCIDOC CRM (Conceptual Reference Model) v7.1.3\nWikibase4Research (WB4R) - NFDI4Culture platform\nWikidata - WikiProject Exhibitions"
+  },
+  {
+    "objectID": "artist-datamodel.html#overview",
+    "href": "artist-datamodel.html#overview",
+    "title": "Artist Data Model",
+    "section": "",
+    "text": "This data model provides a standardized schema for describing artists and their biographical information within the Linked Open Exhibition ecosystem. It is aligned with three major sector standards:\n\nCIDOC CRM (Conceptual Reference Model) v7.1.3\nWikibase4Research (WB4R) - NFDI4Culture platform\nWikidata - WikiProject Exhibitions"
+  },
+  {
+    "objectID": "artist-datamodel.html#quick-reference-schema-mappings",
+    "href": "artist-datamodel.html#quick-reference-schema-mappings",
+    "title": "Artist Data Model",
+    "section": "Quick Reference: Schema Mappings",
+    "text": "Quick Reference: Schema Mappings\n\n\n\n\n\n\n\n\n\nField\nWikidata\nCIDOC CRM\nWikibase4Research\n\n\n\n\nEntity\nP31:Q5 (instance of human)\nE21_Person\nwgm:human (Q5)\n\n\nGiven Name\nP735\nP1_is_identified_by (E82_Appellation)\nwgm:title (P4)\n\n\nFamily Name\nP734\nP1_is_identified_by (E82_Appellation)\nwgm:title (P4)\n\n\nProfession\nP106\nP2_has_type (E55_Type)\nwgm:classified_as (P97)\n\n\nBirth Date\nP569\nP82_at_some_time_within (E52_Time-Span)\nwgm:date (P12)\n\n\nDeath Date\nP570\nP82_at_some_time_within (E52_Time-Span)\nwgm:date (P12)\n\n\nNationality\nP27\nP2_has_type (E55_Type_Nationality)\nwgm:classified_as (P97)\n\n\nReference\nQ-identifier\nP1_is_identified_by (E42_Identifier)\nwgm:internal_id (P96)\n\n\nCommons Category\nP373\nP87_is_identified_by (E39_Actor)\nwgm:gnd (P102) / wgm:getty_ulan (P100)"
+  },
+  {
+    "objectID": "artist-datamodel.html#example-max-ernst-q108968",
+    "href": "artist-datamodel.html#example-max-ernst-q108968",
+    "title": "Artist Data Model",
+    "section": "Example: Max Ernst (Q108968)",
+    "text": "Example: Max Ernst (Q108968)\nName: Max Ernst\nGiven Name: Max\nFamily Name: Ernst\nProfession: Painter, Sculptor, Artist (Surrealist movement)\nDate of Birth: 1891\nDate of Death: 1976\nNationality: German (later naturalized French and American)\nReference: https://www.wikidata.org/wiki/Q108968"
+  },
+  {
+    "objectID": "artist-datamodel.html#data-structure",
+    "href": "artist-datamodel.html#data-structure",
+    "title": "Artist Data Model",
+    "section": "Data Structure",
+    "text": "Data Structure\n\n1. Entity Type\n\n\n\nField\nValue\n\n\n\n\nGerman Label\nEntität\n\n\nEnglish Label\nEntity\n\n\nDescription\nThe item itself is classified as a human\n\n\nData Type\nItem\n\n\n\n\nSchema Mappings\n\n\n\n\n\n\n\n\nStandard\nProperty\nDescription\n\n\n\n\nWikidata\nP31:Q5\nInstance of human\n\n\nCIDOC CRM\nE21_Person\nDefines the entity as a person\n\n\nWB4R\nwgm:human (Q5) / wgm:instance_of (P1)\nHuman classification in Wikibase4Research\n\n\n\n\n\n\n\n2. Given Name\n\n\n\nField\nValue\n\n\n\n\nGerman Label\nVorname\n\n\nEnglish Label\nGiven name\n\n\nWikidata Property\nP735 (given name)\n\n\nData Type\nItem (reference to name item)\n\n\nURI\nhttps://www.wikidata.org/wiki/Property:P735\n\n\n\n\nSchema Mappings\n\n\n\n\n\n\n\n\nStandard\nProperty\nDescription\n\n\n\n\nWikidata\nP735\nGiven name (recommended for exhibitions)\n\n\nCIDOC CRM\nP1_is_identified_by (E82_Appellation)\nIdentifies the person through naming\n\n\nWB4R\nwgm:title (P4) or wgm:classified_as (P97)\nName classification in WB4R\n\n\n\n\n\n\n\n3. Family Name\n\n\n\nField\nValue\n\n\n\n\nGerman Label\nNachname\n\n\nEnglish Label\nFamily name\n\n\nWikidata Property\nP734 (family name)\n\n\nData Type\nItem (reference to name item)\n\n\nURI\nhttps://www.wikidata.org/wiki/Property:P734\n\n\n\n\nSchema Mappings\n\n\n\n\n\n\n\n\nStandard\nProperty\nDescription\n\n\n\n\nWikidata\nP734\nFamily name (recommended for exhibitions)\n\n\nCIDOC CRM\nP1_is_identified_by (E82_Appellation)\nIdentifies the person through family name\n\n\nWB4R\nwgm:title (P4) or wgm:classified_as (P97)\nName classification in WB4R\n\n\n\n\n\n\n\n4. Profession / Occupation\n\n\n\nField\nValue\n\n\n\n\nGerman Label\nBeruf\n\n\nEnglish Label\nProfession\n\n\nWikidata Property\nP106 (occupation)\n\n\nData Type\nItem (reference to occupation type)\n\n\nURI\nhttps://www.wikidata.org/wiki/Property:P106\n\n\n\n\nSchema Mappings\n\n\n\n\n\n\n\n\nStandard\nProperty\nDescription\n\n\n\n\nWikidata\nP106\nOccupation (use specific art/exhibition roles)\n\n\nCIDOC CRM\nP2_has_type (E55_Type)\nTypes applied to the person\n\n\nWB4R\nwgm:classified_as (P97)\nClassification of professional role\n\n\n\n\n\nExamples\n\nPainter (Q3391743)\nSculptor (Q729)\nPhotographer (Q33231)\nArchitect (Q42973)\nMusician (Q639669)\n\n\n\n\n\n5. Date of Birth\n\n\n\nField\nValue\n\n\n\n\nGerman Label\nGeburtsdatum\n\n\nEnglish Label\nBirth\n\n\nWikidata Property\nP569 (date of birth)\n\n\nData Type\nDate\n\n\nFormat\nYYYY-MM-DD or YYYY\n\n\nURI\nhttps://www.wikidata.org/wiki/Property:P569\n\n\n\n\nSchema Mappings\n\n\n\n\n\n\n\n\nStandard\nProperty\nDescription\n\n\n\n\nWikidata\nP569\nDate of birth (format: YYYY-MM-DD or YYYY)\n\n\nCIDOC CRM\nP82_at_some_time_within (E52_Time-Span)\nTime-span for birth event\n\n\nWB4R\nwgm:date (P12) via Birth Event or wgm:start_date (P10)\nEvent-based approach\n\n\n\n\n\n\n\n6. Date of Death\n\n\n\nField\nValue\n\n\n\n\nGerman Label\nSterbedatum\n\n\nEnglish Label\nDeath\n\n\nWikidata Property\nP570 (date of death)\n\n\nData Type\nDate\n\n\nFormat\nYYYY-MM-DD or YYYY\n\n\nURI\nhttps://www.wikidata.org/wiki/Property:P570\n\n\n\n\nSchema Mappings\n\n\n\n\n\n\n\n\nStandard\nProperty\nDescription\n\n\n\n\nWikidata\nP570\nDate of death (format: YYYY-MM-DD or YYYY)\n\n\nCIDOC CRM\nP82_at_some_time_within (E52_Time-Span)\nTime-span for death event\n\n\nWB4R\nwgm:date (P12) via Death Event or wgm:end_date (P11)\nEvent-based approach\n\n\n\n\n\n\n\n7. Nationality / Citizenship\n\n\n\nField\nValue\n\n\n\n\nGerman Label\nNationalität\n\n\nEnglish Label\nNationality\n\n\nWikidata Property\nP27 (citizenship)\n\n\nData Type\nItem (reference to country)\n\n\nURI\nhttps://www.wikidata.org/wiki/Property:P27\n\n\n\n\nSchema Mappings\n\n\n\n\n\n\n\n\nStandard\nProperty\nDescription\n\n\n\n\nWikidata\nP27\nCitizenship (link to country item)\n\n\nCIDOC CRM\nP2_has_type (E55_Type_Nationality)\nNationality as type\n\n\nWB4R\nwgm:classified_as (P97) with place reference\nClassification with location context\n\n\n\n\n\nExamples\n\nGermany (Q183)\nFrance (Q142)\nItaly (Q38)\nUnited States (Q30)\n\n\n\n\n\n8. Reference / Identifier\n\n\n\nField\nValue\n\n\n\n\nGerman Label\nReferenz\n\n\nEnglish Label\nReference\n\n\nData Type\nURI / Identifier\n\n\nFormat\nWikidata Q-identifier or external authority file\n\n\n\n\nSchema Mappings\n\n\n\n\n\n\n\n\nStandard\nProperty\nDescription\n\n\n\n\nWikidata\nQ-identifiers\nUse Q-identifiers; also add P227 (GND) and P245 (Getty ULAN)\n\n\nCIDOC CRM\nP1_is_identified_by (E42_Identifier)\nUnique identifier for the person\n\n\nWB4R\nwgm:internal_id (P96) or wgm:gnd (P102) / wgm:getty_ulan (P100)\nAuthority file references\n\n\n\n\n\nAuthority File Properties\n\nGND (German National Library): P227\nGetty ULAN (Union List of Artist Names): P245\nEuropeana ID: P380\nISNI: P213\nVIAF: P214\n\n\n\n\n\n9. Commons Category\n\n\n\nField\nValue\n\n\n\n\nGerman Label\nCommons category\n\n\nEnglish Label\nCommons category\n\n\nWikidata Property\nP373 (search name)\n\n\nData Type\nString\n\n\nURI\nhttps://www.wikidata.org/wiki/Property:P373\n\n\n\n\nSchema Mappings\n\n\n\n\n\n\n\n\nStandard\nProperty\nDescription\n\n\n\n\nWikidata\nP373\nCommons category (for related media/images)\n\n\nCIDOC CRM\nReferenced via E78_Curated Holding\nMedia representation\n\n\nWB4R\nwgm:external_link (P57)\nExternal resource linking\n\n\n\n\n\nPurpose\nLink to Wikimedia Commons categories containing images, documents, or other media representations of the artist."
+  },
+  {
+    "objectID": "artist-datamodel.html#best-practices",
+    "href": "artist-datamodel.html#best-practices",
+    "title": "Artist Data Model",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nWhen Creating Artist Records:\n\nAlways include: Q-identifier (Wikidata link) for interoperability\nUse controlled vocabularies for professions and nationalities\nSpecify date precision: Use YYYY if only year is known, YYYY-MM-DD if full date available\nCross-reference authority files: Include P227 (GND) and P245 (Getty ULAN) identifiers when available\nLink to Commons: Provide P373 references to media collections\nUse consistent naming: Follow “Given Name” + “Family Name” convention\n\n\n\nFor Exhibition Context:\n\nUse WikiProject Exhibitions properties to link artists to exhibitions (P1690: related work)\nFor performing artists: Reference WikiProject Performing arts guidelines\nFor visual artists: Reference WikiProject Visual arts guidelines\nEnsure all date formats are ISO 8601 (YYYY-MM-DD) for data interoperability"
+  },
+  {
+    "objectID": "artist-datamodel.html#related-standards-resources",
+    "href": "artist-datamodel.html#related-standards-resources",
+    "title": "Artist Data Model",
+    "section": "Related Standards & Resources",
+    "text": "Related Standards & Resources\n\nCIDOC CRM Official Documentation\nWikibase4Research Documentation\nWikidata WikiProject Exhibitions\nWikidata WikiProject Visual Arts\nWikidata WikiProject Performing Arts"
+  },
+  {
+    "objectID": "artist-datamodel.html#contact-contributions",
+    "href": "artist-datamodel.html#contact-contributions",
+    "title": "Artist Data Model",
+    "section": "Contact & Contributions",
+    "text": "Contact & Contributions\nFor updates to this data model or suggestions for improvement, please contact the NFDI4Culture Linked Open Exhibition project team or contribute via GitHub."
+  },
+  {
+    "objectID": "artist-datamodel.html#attribution",
+    "href": "artist-datamodel.html#attribution",
+    "title": "Artist Data Model",
     "section": "Attribution",
     "text": "Attribution\nThis data model documentation was created with assistance from GitHub Copilot (powered by Claude Haiku 4.5). The model was aligned against sector standards including CIDOC CRM v7.1.3, Wikibase4Research, and Wikidata WikiProject Exhibitions guidelines through AI-assisted analysis and formatting."
   },
