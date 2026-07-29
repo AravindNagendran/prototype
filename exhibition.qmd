@@ -1,0 +1,20 @@
+---
+title: "Ausstellung"
+---
+
+# Ausstellung
+
+Diese Seite beschreibt die Ausstellung im Rahmen des BIM Prototype 02-Projekts.
+
+## Kurzbeschreibung
+
+Die Ausstellung wird als digitale Forschungs- und Dokumentationsumgebung angelegt, in der kulturelle Objekte, Beteiligte und Zusammenhänge über ein strukturiertes Datenmodell sichtbar gemacht werden.
+
+## Wikidata-Verknüpfung
+
+- Wikidata-QID: Q138651552
+- Wikidata-Link: https://www.wikidata.org/wiki/Q138651552
+
+## Projektbezug
+
+Die Ausstellung ist in das Quarto-Projekt integriert und wird zusammen mit dem Datamodell, dem Künstlerprofil und dem Projektlog dargestellt.

@@ -3,6 +3,7 @@ project:
   output-dir: docs
   render:
     - index.qmd
+    - exhibition.qmd
     - exhibition-datamodel.qmd
     - artist-datamodel.qmd
     - project-log.qmd
@@ -20,6 +21,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: exhibition.qmd
+        text: Ausstellung
       - href: exhibition-datamodel.qmd
         text: Ausstellungs-Datenmodell
       - href: artist-datamodel.qmd

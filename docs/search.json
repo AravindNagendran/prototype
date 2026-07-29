@@ -140,6 +140,34 @@
     "text": "Add your project overview and goals.\nAdd additional pages as the project grows.\nPublish automatically via GitHub Pages."
   },
   {
+    "objectID": "exhibition.html",
+    "href": "exhibition.html",
+    "title": "Ausstellung",
+    "section": "",
+    "text": "Diese Seite beschreibt die Ausstellung im Rahmen des BIM Prototype 02-Projekts.\n\n\nDie Ausstellung wird als digitale Forschungs- und Dokumentationsumgebung angelegt, in der kulturelle Objekte, Beteiligte und Zusammenhänge über ein strukturiertes Datenmodell sichtbar gemacht werden.\n\n\n\n\nWikidata-QID: Q138651552\nWikidata-Link: https://www.wikidata.org/wiki/Q138651552\n\n\n\n\nDie Ausstellung ist in das Quarto-Projekt integriert und wird zusammen mit dem Datamodell, dem Künstlerprofil und dem Projektlog dargestellt."
+  },
+  {
+    "objectID": "exhibition.html#kurzbeschreibung",
+    "href": "exhibition.html#kurzbeschreibung",
+    "title": "Ausstellung",
+    "section": "",
+    "text": "Die Ausstellung wird als digitale Forschungs- und Dokumentationsumgebung angelegt, in der kulturelle Objekte, Beteiligte und Zusammenhänge über ein strukturiertes Datenmodell sichtbar gemacht werden."
+  },
+  {
+    "objectID": "exhibition.html#wikidata-verknüpfung",
+    "href": "exhibition.html#wikidata-verknüpfung",
+    "title": "Ausstellung",
+    "section": "",
+    "text": "Wikidata-QID: Q138651552\nWikidata-Link: https://www.wikidata.org/wiki/Q138651552"
+  },
+  {
+    "objectID": "exhibition.html#projektbezug",
+    "href": "exhibition.html#projektbezug",
+    "title": "Ausstellung",
+    "section": "",
+    "text": "Die Ausstellung ist in das Quarto-Projekt integriert und wird zusammen mit dem Datamodell, dem Künstlerprofil und dem Projektlog dargestellt."
+  },
+  {
     "objectID": "artist-datamodel.html",
     "href": "artist-datamodel.html",
     "title": "Artist Data Model",
