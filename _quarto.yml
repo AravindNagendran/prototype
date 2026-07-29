@@ -8,6 +8,10 @@ project:
     - project-log.qmd
     - wikidata.qmd
     - wikidata-item.ipynb
+metadata:
+  author:
+    - name: "Aravind Nagendran"
+      orcid: "0009-0006-7095-4020"
 
 website:
   title: "BIM Prototype 02"
